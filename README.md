@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## Kaibu
 
-You can use the [editor on GitHub](https://github.com/Kaibu/Kaibu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Webmaster @A3ReallifeRPG, Open Source enthusiast, PHP, JS, Type/Coffescript, Laravel 💖, Electron 💖
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## PGP
 
-### Markdown
+```pgp
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: BCPG v1.48
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+mQGiBFlx2NoRBADRQztFDTN7HxCEqzkVr5QSt1Zn+w0m1Q/GYyRRBupxU1bbMHLy
+lzKBGdYyU4G+P4HmhBOmFGeXaqmpIpnfaAijqP9sxjY+pYi4255WouD3it2ECtwz
+bev4OytzKgJD2wVuuoNMKVNbdBA1X1Lfivsn9nzD6WLFuL6esa6LSWPqqwCghIj6
+iNbncjL9doaajnmOAL7a0gMEAMnrvu9J5IbXLSlgo+wzn9OpOR0QjmqFf+wtT6iH
+bB5XIrOxFfYNyEDjIfbh3NGXtAm77y77J++W1hygvyZAfiAU0zUU+y0kpkLhMAAy
+KniSYo2rE38N4AE1ziVdwqaZ27X4LxGgwuXOgnDCNf8m6OCrfB+TzsLD12srx9pN
+jKMjA/4/pOE2JFOBIzk7e9+FxnaQvF5hRquc2k3hxe1MaEL9YRlWSPJaIn+jLQax
+xltg79y1AXQaBOMPRl4ZpfWxoyPJ3atzyvq/r83jZEEJYcEjAQUfcvpP6HL5T4+7
+W2GaOOYzN0x8xBesnifbLOyn+HC9WkX406EzQTqTrkwLBa+YXbQaS2FpYnUgPE5v
+dGthaWJ1QGdtYWlsLmNvbT6IXgQTEQIAHgUCWXHY2goLBwgJBAMGBQIKCBUFAQMC
+CAkKAxYBAgAKCRD3VMs3SsaftUZRAJwOX9V5iPoo4l90rDFsPpoEk+bqHgCdHa3v
+Y1NZUbhQdqRAIiWnRzGzpIK5AwwEWXHY2hAIAN4DTsHyl5QcjRaGZntJ0AL6bewv
+bUMw6D0VLGgUxnXCxsVxGAoXGcULo+PeOP7ro+0zve5PfkBaD3sNPog7NwIblSPk
+/3OHdABf2krBrt+ZBSRUgXFaYW7EGQFrbvhOt32PoYt1rkAstl1z5Zr8K28Z4VLQ
+zPm1fH01jipqvEcKtLQuZ8wA8rC+J9XLUn3+jO+/OrHwbshv7VYA7cWNtS/YAEus
+3mAjjO8xs84PhC++a85mTdDEgzCC+5yO2bFqrOjQ0cnnoR/vlm48aA+LMRJbDU+O
+RfMRM3b0wziZ/DTtmFbfKiX+Kip+UaC/7E6V1CSoVesZ86n341uhzPK+1ZcH/0lD
+dIMK1hvlKOz7enZKVrcTPpW4iY4Y5KfR+lK48SokJDZ1WAcJ0SrnhOmEl9pBeR9F
+81mHlQIYjthq3eYZM4S8U3P09dJZnhYnQsIasQymtNx3+NuDaSyz2R3B075FOeBH
+HVdzzzPvMbN/0sbvMH2eVYyGET0PqP+qQKBvWvi/49kOMa7r8WQWOT+6aUXshb8e
+MAfuhzfl1a86zWkCqpuH2epg0zQ01VxIaH3ZoSb1AghZwpZbobp4xk564TkUzh46
+S2HlaaVF8kmn2621q6x303pZzKb+yNBj0FIpWwzG6kZBuhkDdj3CoDwLAeGqpG2T
+Hk9/UEdEuwmWnloQ89MH/3L+Fnlc0d2mi94tpn4cqa1xpNHLiRuXiPU7j1W9GqbC
+dnt5HUoDbY3wp4je0SfLpo/MXNymKJQSybP9TNiVZjc442YV5pZrjT3Tg/DSDsrC
+vQaPEmHqCDzWg5vTE7P6D2lw+8lHUgFB3LhMwNepUC3vp/Aa91zKxJz35AUNqAhu
+P8Q5UHp6ij2LA0AIBLR5onaPRGhNPbo4jJKKUgKt8Nxxs+zuru0v1m99UFFdE/Ut
+FO6+JaG+nyp2oduUUBbiMaBQ7TsUqua1077DcZgWbev6sBg9tha5yATcxfkU2d6D
+1MvlK1uS1gbJuzJqEjD7ZNOAPCHBgQXc9kKx3+4n34+IXgQYEQIAHgUCWXHY2goL
+BwgJBAMGBQIKCBUFAQMCCAkKAxYBAgAKCRD3VMs3SsaftWP5AJkB1GBis52k0ke0
+dyiyMTs3Rk7nEACeMryCfMNkIkX8V4OsmaW5lHVCWLY=
+=DQOU
+-----END PGP PUBLIC KEY BLOCK-----
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kaibu/Kaibu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
