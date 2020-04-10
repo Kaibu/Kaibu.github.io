@@ -127,7 +127,6 @@
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="inner">
-                <h3 class="masthead-brand">Random Arma 3 Life Projektname</h3>
             </div>
         </header>
 
@@ -137,6 +136,10 @@
             <hr>
             <h1 id="result"></h1>
             <hr>
+            <button class="btn btn-primary" onclick="roll()"><svg class="bi bi-arrow-repeat" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.854 7.146a.5.5 0 00-.708 0l-2 2a.5.5 0 10.708.708L2.5 8.207l1.646 1.647a.5.5 0 00.708-.708l-2-2zm13-1a.5.5 0 00-.708 0L13.5 7.793l-1.646-1.647a.5.5 0 00-.708.708l2 2a.5.5 0 00.708 0l2-2a.5.5 0 000-.708z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M8 3a4.995 4.995 0 00-4.192 2.273.5.5 0 01-.837-.546A6 6 0 0114 8a.5.5 0 01-1.001 0 5 5 0 00-5-5zM2.5 7.5A.5.5 0 013 8a5 5 0 009.192 2.727.5.5 0 11.837.546A6 6 0 012 8a.5.5 0 01.501-.5z" clip-rule="evenodd"/>
+            </svg></button>
         </main>
 
         <footer class="mastfoot mt-auto">
@@ -159,25 +162,29 @@
 <script src="foswig.js"></script>
 <script type="text/javascript">
 
-  var chain = new Foswig(3)
+  var chain = new Foswig(3 + Math.random())
 
   var dictionary = ['realliferpg', 'Think4Life', 'WOLFSWERK-RPG', 'Donzo-Life', 'Polarlicht Gaming', 'realliferpg', 'Think4Life', 'WOLFSWERK-RPG', 'Donzo-Life', 'Polarlicht Gaming', 'No-Name Pub', 'NEXT LIFE', 'German-Player', 'LEVEL:V', 'Malden Life', 'Golden-TimesRPG', 'Rise of Arma Livonia Life', 'Endless-Gaming', 'Maltis Life', 'SnowFlake', 'Lakeliferpg', 'VLife-Community', 'Second Chance Roleplay', 'Gaming4All', 'Deutschland-Life', 'Empire Life', 'Dreamlife', 'Chronos-Gaming', 'MissionEventDE', 'NewLife-Community', 'SecondLifeRPG', 'Endless Network', 'PrimeLife', 'LostParadise', 'DreamLife-Rosche', 'Flashing Lights', 'Acryl-Gaming', '1960Life', 'privat-kaffeebar-gamers', 'Unitopia-LifeRPG', 'Sosopol Life', 'Bloodhand', 'AFFIX Gaming', 'YourLife RPG', 'ISAF-LIFE', 'LiveYourLife', 'Planet-of-Games', 'Baumwollpfluecker', 'Legendary Life', 'Territory-Gaming', 'eQualityGaming', 'Paradise Life', 'ONE-UNITED', 'Oldschool-Gaming', 'DreamRPG', 'GOLDEN-TIMESRPG', 'Rise of Arma Livonia Life', 'Snowflake',
     'Projekt Kultur', 'Classic-Reallife', 'Planet-of-Games', 'NordlichtGaming', 'Sunrise Gaming', 'Project Arcadia', 'Confidence-RP', 'A3PL-Germany', 'Mountain Valley RPG', 'MinersWin', 'OSTSEEGaming', ' ArmA 3 ParadiseRPG', 'NK-Gaming', 'WolfgamingRPG', 'German Deep Gamezone', 'Rise of ArmA', 'Altersheim', 'hawkins-county', 'OldLive', 'zRaze Life', 'Australia Life', 'Suchtbunker', 'PlanbLife', 'LIVE THAT LIFE', 'NoRiskMulltigaming', 'Agora Roleplay', 'NoSkillJustLuck', 'StateOfGaming', 'Ultim8Gaming', 'Countryside Life', 'WoodBreakers', 'Tanoa-is-life', 'Freedom RPG', 'Infinity Gaming', ' Staatsfeinde LIFE', 'Venias Life Roleplay'
-    , 'Westlife', 'MoreGaming', 'Team Sippe', 'SeriousRolePlay', 'Mwolife', 'Night5', 'Team ELAN', 'J4FG', 'EvolutionGaming', 'Eisenschmiede', 'michecortes', 'Altis-Hunter', 'LakeLifeRPG', 'NoName-arma', 'Project-Legacy', 'LostParadise', 'Flamerbude', 'The Golden-Hope', 'Division Wolf']
+    , 'Westlife', 'MoreGaming', 'Team Sippe', 'SeriousRolePlay', 'Mwolife', 'Night5', 'Team ELAN', 'J4FG', 'EvolutionGaming', 'Eisenschmiede', 'michecortes', 'Altis-Hunter', 'LakeLifeRPG', 'NoName-arma', 'Project-Legacy', 'LostParadise', 'Flamerbude', 'The Golden-Hope', 'Division Wolf','Apus-Gaming','Project Legacy Server','ArmA 3 Fishers Island Germany','Universe-Community 2018','Sky-LifeRP','','','']
 
   chain.addWordsToChain(dictionary)
 
   var domains = ['cc', 'de', 'com', 'xyz', 'net']
 
-  var word = chain.generateWord(5, 25, false, 500)
+  function roll() {
+    var word = chain.generateWord(5, 25 + (Math.random() * 30), false, 500)
 
-  word = word.trim()
-  if (Math.random() > 0.5) {
-    word = word.replace(/ /g, '-')
-  } else {
-    word = word.replace(/\s/g, '')
+    word = word.trim()
+    if (Math.random() > 0.5) {
+      word = word.replace(/ /g, '-')
+    } else {
+      word = word.replace(/\s/g, '')
+    }
+    $('#result').html(word + '.' + domains[Math.floor(Math.random() * domains.length)])
   }
-  $('#result').html(word + '.' + domains[Math.floor(Math.random() * domains.length)])
+
+  roll()
 </script>
 
 </body>
